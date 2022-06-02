@@ -2,16 +2,16 @@ import React, { useEffect, useState } from 'react'
 import '../estilos/carrusel.css'
 
 const data1= [
-    "/images/logo2.jpg",
-    "/images/beref6.jpg",
-    "/images/beref5.jpg",
-    "/images/beref11.jpg",
-    "/images/dental1.jpg",
-    "/images/beref1.jpg",
-    "/images/beref4.jpg",
-    "/images/befef10.jpg",
-    "/images/beref9.jpg",
-    "/images/beris1.jpg",
+    "images/logo2.jpg",
+    "images/beref6.jpg",
+    "images/beref5.jpg",
+    "images/beref11.jpg",
+    "images/dental1.jpg",
+    "images/beref1.jpg",
+    "images/beref4.jpg",
+    "images/befef10.jpg",
+    "images/beref9.jpg",
+    "images/beris1.jpg",
 ]
 
 const Carrusel = () => {
@@ -21,7 +21,6 @@ const Carrusel = () => {
         useEffect(()=>{
 
             const interval= setInterval(()=>{
-                
                 avanzar();
             },5000)
 
