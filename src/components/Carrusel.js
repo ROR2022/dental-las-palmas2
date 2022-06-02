@@ -17,6 +17,7 @@ const data1= [
 const Carrusel = () => {
     const [indice, setIndice] = useState(0);
     const [loaded, setLoaded] = useState(false);
+    const [loader, setLoader] = useState(false);
 
         useEffect(()=>{
 
@@ -28,16 +29,27 @@ const Carrusel = () => {
         })
 
         const regresar= ()=>{
+
             setLoaded(false);
+            setLoader(true);
+
             if (indice>0) setIndice(prev=>prev-1);
             else setIndice(data1.length-1);
-         }     
+         }   
+
         const reiniciar= ()=>{
+
+            setLoaded(false);
+            setLoader(true);
+
             setIndice(0);
         }
        
      const avanzar= ()=>{
-        setLoaded(false);  
+
+        setLoaded(false);
+        setLoader(true);
+
         if ( indice < (data1.length-1) ) setIndice(prev=>prev+1); 
         else reiniciar();
      }   
@@ -49,8 +61,13 @@ const Carrusel = () => {
             <button onClick={avanzar} className='miboton1'>{">>"}</button>
         </div>
             
+            {loader && <h2>Cargando...</h2>}
+            
             <img className={loaded?(indice+1)%2===0?"carru anime":"carru anime2":"carru"} 
-            onLoad={()=>setLoaded(true)}
+            onLoad={()=>{
+                setLoader(false);
+                setLoaded(true);
+            }}
             id="imagen" src={data1[indice]} alt="" />
         
             
