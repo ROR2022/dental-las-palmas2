@@ -1,0 +1,32 @@
+.firma
+{
+    background-color: var(--color1);
+    color: antiquewhite;
+    border-radius: 2vw;
+}
+.option1
+{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.nombre
+{
+    font-size: 4.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.lema 
+{
+    font-size: 4vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -3vw;
+}
+.domi-footer
+{
+    font-size: 4vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}

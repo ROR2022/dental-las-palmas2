@@ -1,0 +1,36 @@
+.carru
+{
+    width: 95vw;
+}
+
+.anime
+{
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+}
+.anime2
+{
+    animation-name: backInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out; 
+}
+.botoness
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+.miboton1
+{
+    margin-left: 2vw;
+    width: 13vw;
+    height: 10vw;
+    font-size: 7.5vw;
+    background-color: var(--color3);
+    box-shadow: .2vw .2vw .2vw .2vw var(--color2);
+    border-radius: 3vw;
+    border: .7vw solid var(--color1);
+    text-decoration: none;
+}

@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    width: 100vw;
+    height: 100vh;
+    --color1: #c90076;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    background: radial-gradient(circle,#fff,#FFBDBD);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+@media screen and (min-width: 250px) and (min-height: 500px){
+    
+    .titulo, .subtitulo, .direccion {
+        position: absolute;
+        top: 2vh;
+        left: 5vw;
+        font: bold 6.8vw 'Lobster',cursive;
+        color: var(--color1);
+    }
+    .titulo {
+        animation-name: backInLeft;
+        animation-duration: 1s;
+    }
+    .subtitulo {
+        top: 8vh;
+        left: 24vw;
+        font: bold 5vw 'Lobster',cursive;
+        animation-name: fadeInRight;
+        animation-duration: 1s;
+        
+    }
+    .publi, .cita, .llamar, .wats, .face, .ubi, .mail, .galeria {
+        position: absolute;
+        top: 15vh;
+        left: 10vw;
+        width: 15vh;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 5px #FFBDBD;
+    }
+    .publi {
+        animation-name: bounceOut;
+        animation-duration: 1s;
+    }
+    .cita {
+        left: 50vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: rotateIn;
+        animation-duration: 1s;
+    }
+    .llamar {
+        top: 35vh;
+        animation-name: heartBeat;
+        animation-duration: 1s;
+    }
+    .wats {
+        top: 35vh;
+        left: 52vw;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+    .face {
+        top: 53vh;
+        animation-name: flash;
+        animation-duration: 1s;
+
+    }
+    .ubi {
+        top: 53vh;
+        left: 50vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: headShake;
+        animation-duration: 1s;
+    }
+    .mail {
+        top: 70vh;
+        animation-name: jello;
+        animation-duration: 1s;
+
+    }
+    .galeria {
+        top: 70vh;
+        left: 50vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: swing;
+        animation-duration: 1s;
+    }
+    .direccion {
+        text-align: center;
+        top: 90vh;
+        left: 1vw;
+        font: bold 2vh cursive;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (min-height: 250px) {
+    .titulo, .subtitulo, .direccion {
+        position: absolute;
+        top: 2vh;
+        left: 5vw;
+        font: bold 6.8vw 'Lobster',cursive;
+        color: var(--color1);
+    }
+    .titulo {
+        animation-name: backInLeft;
+        animation-duration: 1s;
+    }
+    .subtitulo {
+        top: 18vh;
+        left: 28vw;
+        font: bold 5vw 'Lobster',cursive;
+        animation-name: fadeInRight;
+        animation-duration: 1s;
+    }
+    .publi, .cita, .llamar, .wats, .face, .ubi, .mail, .galeria {
+        position: absolute;
+        width: 15vh;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 5px #FFBDBD;
+    }
+    .publi {
+        animation-name: bounceOut;
+        animation-duration: 1s;
+        top: 35vh;
+        left: 22vw;
+        width: 25vh;
+    }
+    .cita {
+        left: 60vw;
+        top: 35vh;
+        width: 27vh;
+        height: 25vh;
+        animation-name: rotateIn;
+        animation-duration: 1s;
+    }
+    .llamar {
+        top: 70vh;
+        left: 53vw;
+        animation-name: heartBeat;
+        animation-duration: 1s;
+    }
+    .wats {
+        top: 70vh;
+        left: 43vw;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+    .face {
+        top: 70vh;
+        left: 33vw;
+        animation-name: flash;
+        animation-duration: 1s;
+
+    }
+    .ubi {
+        top: 70vh;
+        left: 63vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: headShake;
+        animation-duration: 1s;
+    }
+    .mail {
+        top: 70vh;
+        left: 23vw;
+        animation-name: jello;
+        animation-duration: 1s;
+
+    }
+    .galeria {
+        top: 35vh;
+        left: 41vw;
+        width: 27vh;
+        height: 25vh;
+        animation-name: swing;
+        animation-duration: 1s;
+    }
+    .direccion {
+        text-align: center;
+        top: 90vh;
+        left: 4vw;
+        font: bold 3vw cursive;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (min-height: 500px) {
+    .titulo, .subtitulo, .direccion {
+        position: absolute;
+        top: 2vh;
+        left: 5vw;
+        font: bold 6.8vw 'Lobster',cursive;
+        color: var(--color1);
+    }
+    .titulo {
+        animation-name: backInLeft;
+        animation-duration: 1s;
+    }
+    .subtitulo {
+        top: 18vh;
+        left: 28vw;
+        font: bold 5vw 'Lobster',cursive;
+        animation-name: fadeInRight;
+        animation-duration: 1s;
+    }
+    .publi, .cita, .llamar, .wats, .face, .ubi, .mail, .galeria {
+        position: absolute;
+        width: 15vh;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 5px #FFBDBD;
+    }
+    .publi {
+        animation-name: bounceOut;
+        animation-duration: 1s;
+        top: 35vh;
+        left: 18vw;
+        width: 25vh;
+    }
+    .cita {
+        left: 64vw;
+        top: 35vh;
+        width: 27vh;
+        height: 25vh;
+        animation-name: rotateIn;
+        animation-duration: 1s;
+    }
+    .llamar {
+        top: 70vh;
+        left: 58vw;
+        animation-name: heartBeat;
+        animation-duration: 1s;
+    }
+    .wats {
+        top: 70vh;
+        left: 43vw;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+    .face {
+        top: 70vh;
+        left: 28vw;
+        animation-name: flash;
+        animation-duration: 1s;
+
+    }
+    .ubi {
+        top: 70vh;
+        left: 73vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: headShake;
+        animation-duration: 1s;
+    }
+    .mail {
+        top: 70vh;
+        left: 13vw;
+        animation-name: jello;
+        animation-duration: 1s;
+
+    }
+    .galeria {
+        top: 35vh;
+        left: 41vw;
+        width: 27vh;
+        height: 25vh;
+        animation-name: swing;
+        animation-duration: 1s;
+    }
+    .direccion {
+        text-align: center;
+        top: 90vh;
+        left: 4vw;
+        font: bold 3vw cursive;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+}
+
+@media screen and (min-width: 750px) and (min-height: 950px){
+    .titulo, .subtitulo, .direccion {
+        position: absolute;
+        top: 2vh;
+        left: 5vw;
+        font: bold 6.8vw 'Lobster',cursive;
+        color: var(--color1);
+    }
+    .titulo {
+        animation-name: backInLeft;
+        animation-duration: 1s;
+    }
+    .subtitulo {
+        top: 8vh;
+        left: 24vw;
+        font: bold 5vw 'Lobster',cursive;
+        animation-name: fadeInRight;
+        animation-duration: 1s;
+        
+    }
+    .publi, .cita, .llamar, .wats, .face, .ubi, .mail, .galeria {
+        position: absolute;
+        top: 15vh;
+        left: 10vw;
+        width: 15vh;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px 5px #FFBDBD;
+    }
+    .publi {
+        animation-name: bounceOut;
+        animation-duration: 1s;
+    }
+    .cita {
+        left: 50vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: rotateIn;
+        animation-duration: 1s;
+    }
+    .llamar {
+        top: 35vh;
+        animation-name: heartBeat;
+        animation-duration: 1s;
+    }
+    .wats {
+        top: 35vh;
+        left: 52vw;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+    .face {
+        top: 53vh;
+        animation-name: flash;
+        animation-duration: 1s;
+
+    }
+    .ubi {
+        top: 53vh;
+        left: 50vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: headShake;
+        animation-duration: 1s;
+    }
+    .mail {
+        top: 70vh;
+        animation-name: jello;
+        animation-duration: 1s;
+
+    }
+    .galeria {
+        top: 70vh;
+        left: 50vw;
+        width: 17vh;
+        height: 15vh;
+        animation-name: swing;
+        animation-duration: 1s;
+    }
+    .direccion {
+        text-align: center;
+        top: 90vh;
+        left: 1vw;
+        font: bold 2vh cursive;
+        animation-name: rollIn;
+        animation-duration: 1s;
+    }
+}

@@ -1,0 +1,67 @@
+.main-cont2 {
+    
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(35vw,1fr));
+    gap: 2vw;
+}
+.main-cont2 img{
+    border-radius: 10vw;
+    margin-right: 2vw;
+    
+    width: 98%;
+    height: 65vw;
+    border: .5vw solid var(--color1);
+    box-shadow: .5vw .5vw .5vw .5vw var(--color2);
+    
+}
+
+.imagen1:hover, .imagen10:hover, .imagen19:hover {
+    animation-duration: 1s;
+    animation-name: bounceOut;
+}
+.imagen2:hover, .imagen11:hover, .imagen20:hover {
+    animation-duration: 1s;
+    transform-origin: center;
+    animation-name: rotateIn;
+}
+.imagen3:hover, .imagen12:hover, .imagen21:hover {
+    animation-name: heartBeat;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+}
+.imagen4:hover, .imagen13:hover, .imagen22:hover {
+    animation-name: backInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.imagen5:hover, .imagen14:hover, .imagen23:hover {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+}
+.imagen6:hover, .imagen15:hover, .imagen24:hover {
+    animation-name: rollIn;
+    animation-duration: 4s;
+}
+.imagen7:hover, .imagen16:hover, .imagen25:hover {
+    animation-name: flash;
+    animation-duration: 1s;
+}
+.imagen8:hover, .imagen17:hover, .imagen26:hover {
+    animation-timing-function: ease-in-out;
+    animation-name: headShake;
+    animation-duration: 1s;
+}
+
+.imagen9:hover, .imagen18:hover {
+    animation-name: jello;
+    transform-origin: center;
+    animation-duration: 1s;
+}
+
+.imagen27:hover, .imagen28:hover, .imagen29:hover {
+    animation-name: swing;
+    transform-origin: center;
+    animation-duration: 1s;
+}
+

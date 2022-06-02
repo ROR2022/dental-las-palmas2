@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+
+.llamar-ahora
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 10vw;
+    font-size: 7vw;
+    background-color: var(--color1);
+    color: antiquewhite;
+    border-radius: 10vw;
+    border: .5vw solid var(--color1);
+    box-shadow: .5vw .5vw .5vw .5vw var(--color2);
+}
+.logo-llamar-ahora
+{
+    width: 10vw;
+    margin-right: 2vw;
+}

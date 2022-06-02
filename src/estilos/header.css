@@ -1,0 +1,68 @@
+
+
+.cab-cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo
+{
+    width: 18vw;
+    height: 90%;
+    border-radius: 6vw;
+    margin-top: 0vw;
+    margin-right: 5vw;
+    border: .7vw solid var(--color1);
+    box-shadow: .2vw .2vw .2vw .2vw var(--color2);
+}
+.logo2-cont
+{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 6vw;
+    margin-top: 0vw;
+    margin-left: 5vw;
+    background-color: var(--color2);
+    cursor: pointer;
+}
+
+.logo2 
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 2vw;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.tit-cont
+{
+    text-align: center;
+}
+.titulo
+{
+    font-size: 7.7vw;
+    font-family: sans-serif;
+    color: var(--color1);
+}
+.subtitulo
+{
+    margin-top: -5vw;
+    font-size: 5vw;
+    font-family: monospace;
+    color: var(--color3);
+}
+.btn-instalar
+{
+    color: var(--color1);
+    font-size: 4vw;
+    background: var(--color4);
+    text-transform: uppercase;
+    border: .5vw solid var(--color1);
+    box-shadow: .5vw .5vw .5vw .5vw var(--color2);
+    border-radius: 10vw;
+    margin-left: 35vw;
+    margin-bottom: 5vw;
+}

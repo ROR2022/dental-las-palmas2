@@ -1,0 +1,42 @@
+.art-cont
+{
+    position: relative;
+    background-color: var(--color4);
+    color: var(--color1);
+    padding: 1vw;
+}
+
+.profi, .endo, .radix, .endoned
+{
+    
+    width: 40vw;
+    position: relative;
+    border-radius: 4vw;
+    border: .5vw solid var(--color1);
+    box-shadow: .5vw .5vw .5vw .5vw var(--color2);
+    margin-left: 2vw;
+    float: right;
+}
+.radix, .endoned
+{
+    margin-left: 0vw;
+    margin-right: 2vw;
+    float: left;
+}
+.texto
+{
+    position: relative;
+    text-align: justify;
+    font-size: 5vw;
+}
+
+.texto span
+{
+    font-size: 5.5vw;
+    font-weight: 600;
+}
+.texto cite 
+{
+    font-size: 5.5vw;
+}
+

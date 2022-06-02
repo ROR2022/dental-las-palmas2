@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+///import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import {HashRouter, Routes, Route} from 'react-router-dom';
+import MiCita from './components/MiCita';
+import MisArticulos from './components/MisArticulos';
+import MiGaleria from './components/MiGaleria';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/cita' element={<MiCita/>}/>
+          <Route path='/articulos' element={<MisArticulos/>}/>
+          <Route path='/galeria' element={<MiGaleria/>}/>
+        </Routes>
+            
+      </HashRouter>
     </div>
   );
 }
