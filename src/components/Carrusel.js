@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../estilos/carrusel.css'
+import Loader from './Loader';
 
 const data1= [
     "images/logo2.jpg",
@@ -61,8 +62,8 @@ const Carrusel = () => {
             <button onClick={avanzar} className='miboton1'>{">>"}</button>
         </div>
             
-            {loader && <h2>Cargando...</h2>}
-            
+            {loader && <Loader/>}
+
             <img className={loaded?(indice+1)%2===0?"carru anime":"carru anime2":"carru"} 
             onLoad={()=>{
                 setLoader(false);
