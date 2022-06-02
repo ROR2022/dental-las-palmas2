@@ -1,0 +1,54 @@
+{
+  "short_name": "Las Palmas",
+  "name": "Consultorio Dental Las Palmas",
+  "start_url": "./?mode=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#ff7987",
+  "background_color": "#ffcbdb",
+  "id":"/dental-las-palmas2/?mode=pwa",
+  "icons": [
+    {
+      "src": "icono192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icono512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "icono440.png",
+      "type": "image/png",
+      "sizes": "440x440",
+      "purpose": "any"
+    },
+    {
+      "src": "icono330.png",
+      "type": "image/png",
+      "sizes": "330x330",
+      "purpose": "any"
+    },
+    {
+      "src": "icono256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "icono144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "icono64.png",
+      "type": "image/png",
+      "sizes": "64x64",
+      "purpose": "any"
+    }
+  ]
+}
