@@ -24,7 +24,7 @@ const Carrusel = () => {
 
             const interval= setInterval(()=>{
                 avanzar();
-            },5000)
+            },10000)
 
             return ()=> clearInterval(interval);
         })
