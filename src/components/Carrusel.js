@@ -10,7 +10,7 @@ const data1= [
     "images/dental1.jpg",
     "images/beref1.jpg",
     "images/beref4.jpg",
-    "images/befef10.jpg",
+    "images/beref10.jpg",
     "images/beref9.jpg",
     "images/beris1.jpg",
 ]
