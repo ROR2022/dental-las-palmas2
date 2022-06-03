@@ -3,7 +3,7 @@
     display: inline-block;
     position: relative;
     width: 50vw;
-    height: 50vw;
+    height: 80vw;
   }
   .lds-spinner div {
     transform-origin: 25vw 25vw;
