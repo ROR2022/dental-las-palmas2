@@ -6,6 +6,7 @@ import {HashRouter, Routes, Route} from 'react-router-dom';
 import MiCita from './components/MiCita';
 import MisArticulos from './components/MisArticulos';
 import MiGaleria from './components/MiGaleria';
+import Mipago from './components/Mipago';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/cita' element={<MiCita/>}/>
+          <Route path='/pagos' element={<Mipago/>}/>
           <Route path='/articulos' element={<MisArticulos/>}/>
           <Route path='/galeria' element={<MiGaleria/>}/>
         </Routes>

@@ -1,0 +1,127 @@
+.card-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color4);
+    border-radius: 2vw;
+    border: .3vw solid var(--color1);
+}
+.img-pagos
+{
+    width: 30vw;
+    align-self: center;
+    margin: auto;
+}
+.micard-element
+{
+    width: 90vw;
+    font-size: 6vw;
+}
+.micard-container
+{
+    border: .1vw solid var(--color1);
+    border-radius: 2vw;
+    margin-bottom: 1vw;
+}
+.monto-pagar
+{
+    font-size: 6vw;
+    text-align: center;
+    color: #777;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.concepto-pagar
+{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: -4vw;
+    color: #777;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.btn-pagar
+{
+    color: #fff;
+    width: 35vw;
+    margin-top: 1vw;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 700;
+    border-radius: 4vw;
+    padding: 3vw;
+    
+    background-color: var(--color1);
+}
+.mimonto
+{
+    width: 10vw;
+    font-size: 5vw;
+    color: #fff;
+    padding: 0 2vw;
+    margin-left: 2vw;
+    background-color: var(--color2);
+    border-radius: 2vw;
+}
+.miconcepto
+{
+    width: 40vw;
+    color: #fff;
+    font-size: 4vw;
+    padding: 0 2vw;
+    margin-left: 2vw;
+    border-radius: 2vw;
+    background-color: var(--color2);
+}
+.miresult
+{
+    font-size: 4vw;
+    color: var(--fondo1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mierror
+{
+    font-size: 4vw;
+    color: var(--color1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #fff;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+  

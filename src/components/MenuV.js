@@ -15,6 +15,11 @@ const MenuV = () => {
             <p>Hacer una Cita</p>
         </Link>
         <hr />
+        <Link className='option'to='/pagos'>
+            <img src="images/iconocard.png" alt="" />
+            <p>Pagar con Tarjeta</p>
+        </Link>
+        <hr />
         <Link className='option' to='/galeria'>
            <img src="images/iconogaleria.png" alt="" />
             <p>Galeria</p>
