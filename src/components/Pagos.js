@@ -115,7 +115,7 @@ const CheckoutForm = () =>{
             //console.log(paymentMethod);
             const { id } = paymentMethod;
             try {
-                const { data } = await axios.post('https://143.198.134.190/api/checkout', {
+                const { data } = await axios.post('https://ror2022.ga/api/checkout', {
                 id, 
                 amount: mimonto*100, 
                 concepto: miconcepto ? miconcepto : "sin concepto"
