@@ -63,6 +63,7 @@
     color: #fff;
     padding: 0 2vw;
     margin-left: 2vw;
+    pointer-events: none;
     background-color: var(--color2);
     border-radius: 2vw;
 }
