@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dental-las-palmas2/static/css/main.862b16c6.css",
-    "main.js": "/dental-las-palmas2/static/js/main.b1d86e2b.js",
+    "main.js": "/dental-las-palmas2/static/js/main.cbda1f36.js",
     "static/js/787.8d32af4f.chunk.js": "/dental-las-palmas2/static/js/787.8d32af4f.chunk.js",
     "service-worker.js": "/dental-las-palmas2/service-worker.js",
     "index.html": "/dental-las-palmas2/index.html",
     "main.862b16c6.css.map": "/dental-las-palmas2/static/css/main.862b16c6.css.map",
-    "main.b1d86e2b.js.map": "/dental-las-palmas2/static/js/main.b1d86e2b.js.map",
+    "main.cbda1f36.js.map": "/dental-las-palmas2/static/js/main.cbda1f36.js.map",
     "787.8d32af4f.chunk.js.map": "/dental-las-palmas2/static/js/787.8d32af4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.862b16c6.css",
-    "static/js/main.b1d86e2b.js"
+    "static/js/main.cbda1f36.js"
   ]
 }
