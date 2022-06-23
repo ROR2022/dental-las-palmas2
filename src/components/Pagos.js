@@ -5,7 +5,7 @@ import axios from 'axios';
 //import "bootswatch/dist/lux/bootstrap.min.css"
 import "../estilos/pagos.css";
 
-const stripePromise = loadStripe("pk_test_51LDeYUFQXhMi801KlL7bc3cxPfqoAGjTrW9ApokznO0Kodcmu7s96Cug4RJu3MJzwQHn1GU1q55Ab456TO2MAqVt00ge0d8da6");
+const stripePromise = loadStripe("pk_live_51LDeYUFQXhMi801KVENEyGGoFKG1uSHA8s0zhuqEBK0sHV8PJAF4GP67jwmZ3UwfkinqT58EI74aC5HLF4xP98R600kbf6CU8a");
 
 const MiloaderPagos = ()=>{
     return (
